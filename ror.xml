@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/">
+  <channel>
+    <title>Rosa Advocacia e Consultoria</title>
+    <link>https://advocaciarosadireitoprevidenciario.github.io/Site/</link>
+    <description>Site institucional de Direito Previdenciário em Ibaiti/PR.</description>
+    <item>
+      <title>Página inicial</title>
+      <link>https://advocaciarosadireitoprevidenciario.github.io/Site/</link>
+      <description>Atendimento em aposentadorias, benefícios do INSS, BPC/LOAS, benefícios por incapacidade, pensão por morte, revisões, recursos administrativos e ações judiciais previdenciárias.</description>
+      <ror:updatePeriod>monthly</ror:updatePeriod>
+      <ror:sortOrder>0</ror:sortOrder>
+      <ror:resourceOf>sitemap</ror:resourceOf>
+    </item>
+  </channel>
+</rss>

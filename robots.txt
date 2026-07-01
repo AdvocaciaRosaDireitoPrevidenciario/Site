@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Sitemap do projeto GitHub Pages
+Sitemap: https://advocaciarosadireitoprevidenciario.github.io/Site/sitemap.xml

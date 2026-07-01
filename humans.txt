@@ -1,0 +1,11 @@
+/* TEAM */
+Site: Rosa Advocacia e Consultoria
+Área: Direito Previdenciário
+Cidade: Ibaiti/PR
+Contato: rosaadvocaciaibt@gmail.com
+
+/* SITE */
+URL: https://advocaciarosadireitoprevidenciario.github.io/Site/
+Idioma: Português do Brasil
+Tecnologias: HTML, CSS e JavaScript embutidos
+Última atualização: 2026-07-01

@@ -1,0 +1,12 @@
+title: "Rosa Advocacia e Consultoria"
+description: "Direito Previdenciário em Ibaiti/PR"
+url: "https://advocaciarosadireitoprevidenciario.github.io"
+baseurl: "/Site"
+lang: "pt-BR"
+plugins: []
+include:
+  - _headers
+  - .well-known
+exclude:
+  - Gemfile
+  - Gemfile.lock

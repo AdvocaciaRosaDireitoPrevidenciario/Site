@@ -1,0 +1,10 @@
+{
+  "name": "Rosa Advocacia e Consultoria",
+  "short_name": "Rosa Advocacia",
+  "start_url": "https://advocaciarosadireitoprevidenciario.github.io/Site/",
+  "scope": "https://advocaciarosadireitoprevidenciario.github.io/Site/",
+  "display": "standalone",
+  "background_color": "#fbf6ed",
+  "theme_color": "#101827",
+  "lang": "pt-BR"
+}
