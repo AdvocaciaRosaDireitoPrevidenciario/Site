@@ -173,7 +173,7 @@
   }
 
   function buildWhatsAppUrl(lead) {
-    const source = lead.utms.utm_campaign || lead.utms.utm_source || "landing page";
+    const source = "site";
     const message = [
       "Olá, vim pela campanha sobre benefício negado pelo INSS.",
       "",
@@ -325,6 +325,39 @@
   });
 
   if (video) {
+    // Autoplay em navegadores móveis só é permitido sem som.
+    // Mantemos os controles visíveis para o visitante ativar o áudio quando desejar.
+    video.muted = true;
+    video.defaultMuted = true;
+    video.autoplay = true;
+    video.playsInline = true;
+    video.setAttribute("muted", "");
+    video.setAttribute("playsinline", "");
+    video.setAttribute("webkit-playsinline", "");
+
+    const startVideo = () => {
+      const playback = video.play();
+      if (playback && typeof playback.catch === "function") {
+        playback.catch(() => {
+          // Alguns navegadores só liberam a reprodução após a primeira interação.
+          const resumeOnInteraction = () => {
+            video.play().catch(() => {});
+            document.removeEventListener("pointerdown", resumeOnInteraction);
+            document.removeEventListener("touchstart", resumeOnInteraction);
+          };
+          document.addEventListener("pointerdown", resumeOnInteraction, { once: true, passive: true });
+          document.addEventListener("touchstart", resumeOnInteraction, { once: true, passive: true });
+        });
+      }
+    };
+
+    if (video.readyState >= 2) {
+      startVideo();
+    } else {
+      video.addEventListener("canplay", startVideo, { once: true });
+      window.addEventListener("load", startVideo, { once: true });
+    }
+
     video.addEventListener("play", () => {
       if (!state.videoTracked) {
         state.videoTracked = true;
