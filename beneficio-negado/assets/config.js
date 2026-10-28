@@ -1,6 +1,6 @@
 window.CAMPAIGN_CONFIG = Object.freeze({
   metaPixelId: "",
-  whatsappNumber: "554399809716",
+  whatsappNumber: "5543999809716",
   campaignName: "beneficio_negado_inss_2026",
   pagePath: "/Site/beneficio-negado/",
   officeName: "Rosa Advocacia e Consultoria",

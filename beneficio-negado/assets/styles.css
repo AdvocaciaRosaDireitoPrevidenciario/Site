@@ -34,7 +34,7 @@ body {
   background:
     radial-gradient(circle at 12% 4%, rgba(200,165,108,.18), transparent 24rem),
     linear-gradient(180deg, #fffaf0 0%, var(--cream) 55%, var(--paper) 100%);
-  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-family: "Inter", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   line-height: 1.55;
   -webkit-font-smoothing: antialiased;
 }
@@ -134,7 +134,7 @@ button { cursor: pointer; }
 .brand__mark img { width: 100%; height: 100%; object-fit: cover; }
 .brand__text strong {
   display: block;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: "Source Serif 4", Georgia, "Times New Roman", serif;
   font-size: 1.14rem;
   line-height: 1.1;
 }
@@ -178,7 +178,7 @@ button { cursor: pointer; }
 .hero h1 {
   max-width: 760px;
   margin: 0;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: "Source Serif 4", Georgia, "Times New Roman", serif;
   font-size: clamp(2.55rem, 5.2vw, 5rem);
   line-height: .98;
   letter-spacing: -.045em;
@@ -321,7 +321,7 @@ button { cursor: pointer; }
 .section-heading .eyebrow { margin-bottom: 15px; }
 .section-heading h2 {
   margin: 0;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: "Source Serif 4", Georgia, "Times New Roman", serif;
   font-size: clamp(2rem, 3.8vw, 3.35rem);
   line-height: 1.08;
   letter-spacing: -.03em;
@@ -423,7 +423,7 @@ button { cursor: pointer; }
 .questionario-step.is-active { display: block; }
 @keyframes stepIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
 .questionario-step__kicker { margin: 0 0 10px; color: var(--gold-700); font-size: .75rem; font-weight: 900; letter-spacing: .12em; text-transform: uppercase; }
-.questionario-step h3 { margin: 0; font-family: Georgia, "Times New Roman", serif; font-size: clamp(1.55rem, 2.8vw, 2.15rem); line-height: 1.15; }
+.questionario-step h3 { margin: 0; font-family: "Source Serif 4", Georgia, "Times New Roman", serif; font-size: clamp(1.55rem, 2.8vw, 2.15rem); line-height: 1.15; }
 .questionario-step__help { margin: 10px 0 0; color: var(--muted); font-size: .9rem; }
 .options { display: grid; gap: 12px; margin-top: 26px; }
 .option {
@@ -503,7 +503,7 @@ button { cursor: pointer; }
 }
 .authority__logo { width: 112px; height: 112px; overflow: hidden; border-radius: 24px; border: 1px solid rgba(255,255,255,.14); background: #fff; }
 .authority__logo img { width: 100%; height: 100%; object-fit: cover; }
-.authority h2 { margin: 0; font-family: Georgia, "Times New Roman", serif; font-size: clamp(1.55rem, 3vw, 2.35rem); }
+.authority h2 { margin: 0; font-family: "Source Serif 4", Georgia, "Times New Roman", serif; font-size: clamp(1.55rem, 3vw, 2.35rem); }
 .authority p { margin: 9px 0 0; color: rgba(255,255,255,.66); }
 .authority__id { padding: 10px 13px; border: 1px solid rgba(255,255,255,.12); border-radius: 13px; color: var(--gold-300); font-size: .82rem; font-weight: 900; white-space: nowrap; }
 
@@ -516,7 +516,7 @@ details[open] summary::after { content: "×"; }
 details p { margin: 0; padding: 0 20px 20px; color: var(--muted); font-size: .92rem; }
 
 .final-cta { text-align: center; }
-.final-cta h2 { max-width: 760px; margin: 0 auto; font-family: Georgia, "Times New Roman", serif; font-size: clamp(2rem, 4vw, 3.6rem); line-height: 1.08; }
+.final-cta h2 { max-width: 760px; margin: 0 auto; font-family: "Source Serif 4", Georgia, "Times New Roman", serif; font-size: clamp(2rem, 4vw, 3.6rem); line-height: 1.08; }
 .final-cta p { max-width: 690px; margin: 18px auto 28px; color: rgba(255,255,255,.66); }
 .final-cta .btn { min-width: min(100%, 360px); }
 .final-cta__actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; }
@@ -562,7 +562,7 @@ details p { margin: 0; padding: 0 20px 20px; color: var(--muted); font-size: .92
   box-shadow: var(--shadow-hard);
 }
 .modal__head { position: sticky; top: 0; z-index: 2; display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 20px 22px; border-bottom: 1px solid var(--line); background: rgba(255,253,248,.96); }
-.modal__head h2 { margin: 0; font-family: Georgia, "Times New Roman", serif; font-size: 1.45rem; }
+.modal__head h2 { margin: 0; font-family: "Source Serif 4", Georgia, "Times New Roman", serif; font-size: 1.45rem; }
 .modal__close { width: 40px; height: 40px; display: grid; place-items: center; border: 1px solid var(--line); border-radius: 12px; background: #fff; font-size: 1.3rem; }
 .modal__body { padding: 24px; color: var(--navy-700); font-size: .88rem; }
 .modal__body h3 { margin: 22px 0 7px; color: var(--navy-950); font-size: 1rem; }
@@ -575,7 +575,7 @@ details p { margin: 0; padding: 0 20px 20px; color: var(--muted); font-size: .92
 .thankyou-card { width: min(780px, 100%); padding: clamp(28px, 6vw, 58px); border: 1px solid var(--line); border-radius: var(--radius-lg); background: rgba(255,255,255,.88); box-shadow: var(--shadow-hard); text-align: center; }
 .thankyou-icon { width: 70px; height: 70px; display: grid; place-items: center; margin: 0 auto 22px; border-radius: 22px; color: #fff; background: var(--green); }
 .thankyou-icon svg { width: 34px; height: 34px; }
-.thankyou-card h1 { margin: 0; font-family: Georgia, "Times New Roman", serif; font-size: clamp(2rem, 5vw, 3.8rem); line-height: 1.04; }
+.thankyou-card h1 { margin: 0; font-family: "Source Serif 4", Georgia, "Times New Roman", serif; font-size: clamp(2rem, 5vw, 3.8rem); line-height: 1.04; }
 .thankyou-card > p { max-width: 600px; margin: 18px auto 0; color: var(--muted); }
 .thankyou-summary { margin: 28px 0; padding: 20px; border: 1px solid var(--line); border-radius: 18px; background: var(--cream); text-align: left; }
 .thankyou-summary strong { display: block; margin-bottom: 7px; }
@@ -1209,3 +1209,8 @@ details p { margin: 0; padding: 0 20px 20px; color: var(--muted); font-size: .92
     font-size: .68rem;
   }
 }
+
+/* Ajustes de 28/10/2026: fonte e leitura */
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+h1, h2, h3 { text-wrap: balance; }
+p { text-wrap: pretty; }
